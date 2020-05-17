@@ -30,7 +30,7 @@ body{
     left: 50%;
     transform: translate(-50%,0);
     z-index: 999;
-    background-image: linear-gradient(to bottom, white, white, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to bottom, white, white, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     width: 100%;
     text-align: center;
 }
@@ -74,7 +74,7 @@ body{
     justify-content: center;
     display: flex; 
     width:100%;
-    background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 }
 
 .transparent{
