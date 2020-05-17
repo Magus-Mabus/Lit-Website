@@ -38,6 +38,7 @@ body{
 #header-title{
     font-family: 'Special Elite';
     transition: ease-in-out .3s;
+    color: rgba(255, 255, 255, 0);
 }
 
 .main-title{

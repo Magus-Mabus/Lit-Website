@@ -45,4 +45,6 @@ var typed = new Typed('.typed', {
     typeSpeed: 80,
     backSpeed: 80,
     loop: true,
+    fadeOut: false,
+    cursorChar: '|',
 });
