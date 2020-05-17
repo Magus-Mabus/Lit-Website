@@ -1,0 +1,201 @@
+html{
+    margin:0px;
+}
+body{
+    margin: 0px;
+    background-image: rgb(255, 237, 204);
+    height:100%;
+    background-attachment: fixed;
+}
+.mission{
+    color: transparent;
+    font-size: 100px;
+}
+
+#black{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    opacity:1;
+    transition: all .5s ease-in-out;
+    pointer-events: none;
+    top:0%;
+}
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 999;
+    background-image: linear-gradient(to bottom, white, white, rgba(255, 255, 255, 0));
+    width: 100%;
+    text-align: center;
+}
+
+#header-title{
+    font-family: 'Special Elite';
+    transition: ease-in-out .3s;
+}
+
+.main-title{
+    pointer-events: none;
+    font-size: 100px;
+    color: rgb(29, 29, 29);
+    font-family: "Special Elite";
+    text-align: center;
+    font-weight: 100;
+    top: 40%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    transition: ease-in-out .3s;
+    opacity : 1;
+    z-index: 5;
+}
+
+.page-content{
+    margin-top: 65%;
+    padding: 0px;
+}
+
+.page-footer{
+    transform: translate(-50%,-0%);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    color:white;
+    justify-content: center;
+    display: flex; 
+    width:100%;
+    background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+}
+
+.transparent{
+    color: transparent;
+}
+
+.fab{
+    color: rgb(68, 68, 68);
+}
+
+.fas{
+    color: rgb(68, 68, 68);
+}
+
+.icon-link{
+    padding: 20px;
+    font-size: 40px;
+    transition: ease-in-out .2s;
+}
+
+.icon-link:hover{
+    transform: scale(1.2,1.2);
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.upcoming {
+    background-color: white;
+    border-radius: 10px;
+    /* margin-left: 15px; */
+    /* width: 40%; */
+    width: 50%;
+    position: relative;
+    /* position: absolute */
+    /* box-shadow: 0px 5px 5px rgba(0,0,0,.6); */
+    /* left:5%; */
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.upcoming-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 30px;
+    font-weight:500;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(207, 191, 252);
+}
+
+.update{
+    border-top-color: gray;
+    border-top-width: 2px;
+    border-top: gray;
+    border-width: 2px;
+}
+
+.update-image{
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.update-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+
+}
+
+.update-details{
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 40;
+    font-weight: 400;
+}
+
+.sign-up-button{
+    color: white !important;
+    text-decoration: none;
+    text-align: center;
+    transform: translate(-50%, 0%) !important;
+    background-color: rgb(123, 213, 243);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50%;
+    font-family: 'Quicksand';
+    width: 15%;
+    margin-top: 25px;
+}
+
+.button-text{
+    color: white !important;
+    text-decoration: none !important;
+    text-align: center;
+    margin-left: auto;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.update-break{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    left:50%;
+    transform: translate(-50%,0%);
+    position:relative;
+}
+
+.insta-feed{
+    scale: 40% !important;
+    margin-right: 0%;
+}
