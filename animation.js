@@ -35,13 +35,13 @@ function fadeOutFader() {
 var typed = new Typed('.typed', {
     strings: [
         '',
-        'Lit^1000',
-        'Poetry^500',
-        'Stories^500',
-        'Essays^500'
+        '<span> </span>Lit^1000',
+        '<span> </span>Poetry^500',
+        '<span> </span>Stories^500',
+        '<span> </span>Essays^500'
     ],
     // stringsElement: '#typed-strings',
-    smartBackspace: true,
+    smartBackspace: false,
     typeSpeed: 80,
     backSpeed: 80,
     loop: true,
