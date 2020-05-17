@@ -1,28 +1,20 @@
 {
     "updates":[
         {
-            "title":"Virtual Beatstock 2020",
-            "description":"Join us for our Youtube live premiere of Beatstock",
-            "details":"7:30pm EST Friday, May 29th<br>Submissions due 11:59pm EST Wednesday, May 20th",
-            "btn_txt":"Sign Up",
-            "btn_url":"https://docs.google.com/forms/d/e/1FAIpQLSfOrGt4-PgwU0UDOno6vcEazct0SuzF-T5ujiVE8vaasTlKoQ/viewform",
-            "img_url":"images/beatstock2020.gif"
-        },
-        {
-            "title":"Spring 2020 Playlist Competition",
-            "description":"Submit an original playlist of your best tunes to win e-giftcards!",
-            "details":"Submissions due 11:59pm EST Wednesday, May 20th",
-            "btn_txt":"Submit",
-            "btn_url":"mailto:thea_chung21@milton.edu, sebastian_park21@milton.edu",
-            "img_url":"images/record.png"
-        },
-        {
             "title":"Apply for the Magus Mabus Board!",
             "description":"",
-            "details":"Submissions due 11:59pm EST on May 26th <br>_",
+            "details":"Submissions due 11:59pm EST on May 28th <br>_",
             "btn_txt":"Apply now",
             "btn_url":"https://docs.google.com/document/d/1rZCNscTurfsuwHScpWMZq024C5pW-3M_P-PmUrUW8YI/edit?usp=gmail",
-            "img_url":""
+            "img_url":"https://miro.medium.com/max/1200/0*ZHWZExSWGFDZyElN"
+        },
+        {
+            "title":"Winter Issue 2020",
+            "description":"View the released Winter Issue 2020 here!",
+            "details":"",
+            "btn_txt":"Open",
+            "btn_url":"https://docs.google.com/forms/d/e/1FAIpQLSfOrGt4-PgwU0UDOno6vcEazct0SuzF-T5ujiVE8vaasTlKoQ/viewform",
+            "img_url":"/images/winter2020.jpg"
         }
     ]
 }
