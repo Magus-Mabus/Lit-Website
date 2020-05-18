@@ -9,19 +9,14 @@ function scrollFunction() {
     let headerTitle = document.getElementById("header-title").style;
     if (document.body.scrollTop / document.body.clientHeight > 50 / 790
         || document.documentElement.scrollTop / document.body.clientHeight > 50 / 790) {
-        // mainTitle.padding = "0px 0px";
-        // mainTitle.top = "-1%";
-        // mainTitle.fontSize = "4vw";
-        // // mainTitle.fontSize = "60px";
-        // mainTitle.fontWeight = "100";
         headerTitle.opacity = "1";
+        // headerTitle.backdropFilter = "blur(10px)";
+        // headerTitle.webkitBackdropFilter = "blur(10px)";
         mainTitle.opacity = "0";
     } else {
-        // mainTitle.padding = "20px 20px";
-        // mainTitle.top = "40%";
-        // // mainTitle.fontSize = "100px";
-        // mainTitle.fontSize = "7vw";
         headerTitle.opacity = "0";
+        // headerTitle.backdropFilter = "none";
+        // headerTitle.webkitBackdropFilter = "none";
         mainTitle.opacity = "1";
     }
 }
