@@ -58,6 +58,18 @@ body{
     z-index: 5;
 }
 
+@media (max-width:400px) {
+    .main-title{
+        font-size: 70px;
+    }
+  }
+
+@media (max-width:350px) {
+    .main-title{
+        font-size: 60px;
+    }
+  }
+
 .page-content{
     position: absolute;
     top: 100%;
