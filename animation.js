@@ -38,7 +38,7 @@ var typed = new Typed('.typed', {
         '<span> </span>Lit^1000',
         '<span> </span>Poetry^500',
         '<span> </span>Stories^500',
-        '<span> </span>Essays^500'
+        '<span> </span>Non-fiction^500'
     ],
     // stringsElement: '#typed-strings',
     smartBackspace: false,
